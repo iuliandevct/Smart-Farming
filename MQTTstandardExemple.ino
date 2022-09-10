@@ -1,3 +1,5 @@
+//https://www.digikey.com/en/maker/blogs/2018/how-to-use-basic-mqtt-on-arduino
+
 #include <SPI.h>
 #include <Ethernet.h>
 #include <PubSubClient.h>
