@@ -6,11 +6,11 @@
 void subscribeReceive(char* topic, byte* payload, unsigned int length);
  
 // Set your MAC address and IP address here
-byte mac[] = { 0xDE, 0xAD, 0xBE, 0xEF, 0xFE, 0xED };
-IPAddress ip(192, 168, 1, 160);
+byte mac[] = { 0x90, 0xA2, 0xDA, 0x0F, 0xBD, 0x52 };
+IPAddress ip(192, 168, 1, 30);
  
 // Make sure to leave out the http and slashes!
-const char* server = "test.mosquitto.org";
+const char* server = "192.168.1.137";
  
 // Ethernet and MQTT related objects
 EthernetClient ethClient;
